@@ -1,0 +1,9 @@
+This data constitutes the entire HadISD dataset available here:
+http://www.metoffice.gov.uk/hadobs/hadisd/download.html
+
+The data totals about 100gb of nc files unpacked. i suspect we 
+could convert them to nc4 files and save some space. 
+
+The data is a single nc file for each weather station, containing 
+a number of variables and whatnot for each station. The lat/lon of 
+the station is embedded as a global parameter in the file. 
